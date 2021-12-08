@@ -1,0 +1,19 @@
+@use 'sass:math';
+
+@function doubler($border){
+    @return $border*2;
+    }
+
+$columncount:12;
+
+ @function col-pct($columns){
+        @return unquote((100/$columncount)*"$columns*"%"");
+         }
+
+
+         
+
+         @function toRem($value) {
+            $remValue: ($value / 16) + rem; 
+            @return $remValue;
+        }

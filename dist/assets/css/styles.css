@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.container {
+  background-color: orange;
+  padding: 1em;
+}
+
+/* modifié par CHEBHED le 17/11/2021 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: #f8e111;
+  background-color: #fd0e0e;
+  border: 1px solid black;
+}
+
+.colonne {
+  width: 100%;
+  border: 1px solid black;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

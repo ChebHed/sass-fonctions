@@ -1,0 +1,46 @@
+/* modifié par CHEBHED le 17/11/2021 */
+// 
+
+@use './variables' as *;
+@use './bases' as *;
+@use './mixins'as *;
+@use './functions' as *;
+@use './header' as *;
+@use './placeholders' as *;
+@use './home' as *;
+@use './menus' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  
+  header {
+    color: #f8e111;
+    background-color: #fd0e0e;
+    border: 1px solid black;
+    }
+  
+  
+  
+
+    @debug"(col-pct(6))";
+
+
+
+    .colonne{
+      width: 100%;
+      border: 1px solid black;
+    }
+
+    h3 {
+      font-size: toRem(48);
+      }
+
+
+    p {
+      font-size: toRem(32);
+      }
